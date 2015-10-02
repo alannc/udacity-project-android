@@ -5,4 +5,25 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <!-- Main Title-->
+    <style name="MainTitleText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColor">@color/abc_primary_text_disable_only_material_light</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Button from Menu Main Activity -->
+    <style name="MainButtons">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@color/material_deep_teal_200</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:onClick">buttonClick</item>
+    </style>
+
 </resources>
